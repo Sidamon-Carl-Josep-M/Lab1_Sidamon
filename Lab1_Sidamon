@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>My Resume</title>
+		<style>
+			body {
+				max-width: 800px;
+				margin: 20px auto;
+				font-family: "Courier New", Courier, monospace;
+				background-color: antiquewhite;
+			}
+
+			.nav,
+			main,
+			footer {
+				border-radius: 5px;
+				box-shadow: 8px 8px;
+			}
+
+			.nav {
+				background-color: #bfa185;
+				padding: 10px;
+				border-radius: 5px 5px 0 0;
+				border: 1px solid black;
+				border-bottom: none;
+				width: auto;
+				align-items: center;
+			}
+
+			main {
+				border-radius: 5px 5px 0 0;
+				text-align: center;
+			}
+
+			footer {
+				padding: 10px;
+				background-color: burlywood;
+				border-radius: 0 0 5px 5px;
+				border: 1px solid black;
+				border-top: none;
+				text-align: center;
+			}
+
+			footer section {
+				width: auto;
+				align-items: center;
+				padding: 10px;
+			}
+
+			.container {
+				width: auto;
+				padding: 20px;
+				border: 1px solid black;
+				background-color: azure;
+			}
+
+			a {
+				color: black;
+			}
+
+			.container img {
+				width: 150px;
+				height: auto;
+				border: 2px solid;
+				border-radius: 50%;
+				padding: 5px;
+			}
+
+			.container section .hr {
+				border-bottom: 3px black solid;
+			}
+
+			.text {
+				text-align: left;
+			}
+
+			.text ul {
+				list-style-type: square;
+				padding-left: 15px;
+			}
+
+			.text ul li ul li {
+				list-style-type: circle;
+			}
+
+			header {
+				display: inline-block;
+			}
+
+			.profile {
+				position: absolute;
+				top: 40px;
+				left: 40px;
+				background-color: #bfa185;
+				padding: 30px;
+				border-radius: 15px;
+				box-shadow: 6px 6px black;
+				border: 1px solid black;
+			}
+
+			.profile a img {
+				width: 70px;
+				height: auto;
+				border-radius: 50%;
+				border: 1px black solid;
+			}
+
+			.back-button {
+				display: none;
+			}
+
+			@media (max-width: 768px) {
+				body {
+					margin: 10px auto 20px;
+					padding: 0;
+					max-width: 300px;
+					font-size: 0.7em;
+				}
+
+				main {
+					margin: 5px 0 0;
+					background-color: antiquewhite;
+					text-align: center;
+					border-radius: 10px 10px 0 0;
+					box-shadow: 4px 4px black;
+				}
+
+				.nav,
+				footer {
+					box-shadow: 4px 4px;
+				}
+
+				.container {
+					padding: 20px;
+					margin: auto;
+					background-color: azure;
+					border: 1px solid black;
+				}
+
+				.profile,
+				.profile a img {
+					display: none;
+				}
+
+				.back-button {
+					display: block;
+					background: #bfa185;
+					border: 1px solid black;
+					box-shadow: 2px 2px black;
+					font-size: 10px;
+					font-weight: bold;
+					cursor: pointer;
+					padding: 10px;
+					color: black;
+					border-radius: 5px;
+				}
+
+				.back-button:hover {
+					color: #dddddd;
+					box-shadow: 1px 1px;
+					transform: translate(2px, 2px);
+				}
+
+				.container img {
+					width: 100px;
+				}
+
+				.text {
+					text-align: left;
+					margin-left: 10px;
+				}
+
+				footer {
+					font-size: 1em;
+				}
+
+				.text ul {
+					padding-left: 10px;
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<main>
+			<div class="nav">
+				<h1>My Profile</h1>
+			</div>
+			<div class="container">
+				<section>
+					<!-- Updated image path -->
+					<img src="c:\Users\user\Desktop\Lab1_Sidamon\466339232_1864195704411219_3736620865023344192_n.jpg" alt="Profile Picture of Carl Joseph M. Sidamon">
+					<h1>Carl Joseph M. Sidamon</h1>
+					<p>
+						Email: cjsidamon03@gmail.com | Phone: 09308934299 | Location: Panungyan 2 Mendez Cavite
+					</p>
+					<div class="hr">
+						<h2><b>About Me</b></h2>
+					</div>
+
+					<div class="text">
+						<p>
+							I am a computer science student who can program common things that can help others to improve their skills in programming.
+							I can effectively manage my time to ensure that I complete all of my tasks within a day.
+						</p>
+					</div>
+				</section>
+
+				<section>
+					<div class="hr">
+						<h2>Language</h2>
+					</div>
+
+					<div class="text">
+						<ul>
+							<li>English</li>
+							<li>Tagalog</li>
+						</ul>
+					</div>
+				</section>
+
+				<section>
+					<div class="hr">
+						<h2>Experience</h2>
+					</div>
+					<h3>
+					 College of Engineering and Information Technology
+					</h3>
+					<div class="text">
+						<ul>
+							<li>Encoding data in immersion in a municipality that lead helps me significant to improvements my skills.</li>
+							<li>Picture editing</li>
+						</ul>
+					</div>
+
+					<h3>Skills</h3>
+					<div class="text">
+						<ul>
+							<li>Adaptability</li>
+							<li>Organize</li>
+                            <li>Time Management</li>
+                            <li>Flexibility</li>
+                            <li>Problem-Solver</li>
+						</ul>
+					</div>
+				</section>
+
+				<section>
+					<div class="hr">
+						<h2>Education</h2>
+					</div>
+
+					<div class="text">
+						<ul>
+							<li>
+								Cavite State University
+								<ul>
+									<li>2025 - 2029</li>
+								</ul>
+							</li>
+							<li>
+								Saint Augustine School - Mendez
+								<ul>
+									<li>2023 - 2025</li>
+								</ul>
+							</li>
+							<li>
+								Tagaytay Mendez Academy
+								<ul>
+									<li>2019 - 2023</li>
+								</ul>
+							</li>
+							<li>
+								Panungyan Elementary School
+								<ul>
+									<li>2013 - 2019</li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+				</section>
+			</div>
+		</main>
+
+		<footer>
+			<section>
+			</section>
+		</footer>
+
+		<script>
+			function goBack() {
+				window.history.back();
+			}
+		</script>
+	</body>
+</html>
